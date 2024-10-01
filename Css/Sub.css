@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/User/Desktop/%D0%A3%D0%BD%D0%B8%D0%BA/Web%20technologies/pexels-nietjuh-796602.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.navbar-links a:hover {
+    color: #007bff;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover; 
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 600px; 
+}
+
+.namep {
+    font-size: 80px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin-bottom: 10px; /
+}
+.namep:hover {
+    transform: scale(1.1);
+    color: black; 
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.works-section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.works-card {
+    border-radius: 10px;
+    width: 45%; 
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.works-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+
+.project-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2);
+}
+
+.wordss {
+    font-family: fantasy;
+    font-size: 24px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a i {
+    margin-right: 8px; 
+}
+
+.works-card h3 i {
+    margin-left: 5px; 
+}
+
+.wordss i {
+    margin-right: 8px; 
+}
+
+.footer a i {
+    margin-right: 5px;
+}
